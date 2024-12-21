@@ -8,7 +8,7 @@ on:
 
    branches:
 
-      - main
+      - develop
 
  
 
@@ -54,7 +54,7 @@ jobs:
 
       - name: Minify JavaScript
 
-        run: minify main.js > main.min.js
+        run: minify test.js > app.js
 
  
 
